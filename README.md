@@ -10,10 +10,10 @@ It provides discerning clients with personalized luxury styling recommendations,
 
 Watch Haute Stylist in action (recorded with Playwright and scored with Google **Lyria (`lyria-002`)** AI upbeat lo-fi background music):
 
-https://github.com/user-attachments/assets/demo-placeholder
-
-> 🎬 **Direct Video Stream (MP4)**: [https://storage.googleapis.com/luxury-fashion-media-qwiklabs-gcp-01-43f6fab872ca/luxury_stylist_demo.mp4](https://storage.googleapis.com/luxury-fashion-media-qwiklabs-gcp-01-43f6fab872ca/luxury_stylist_demo.mp4)
-> 📁 **Local Repo Files**: [`luxury_stylist_demo.mp4`](./luxury_stylist_demo.mp4) | [`luxury_stylist_demo.webm`](./luxury_stylist_demo.webm)
+> 🎬 **Direct Public Video Stream (MP4)**: [https://storage.googleapis.com/luxury-fashion-media-qwiklabs-gcp-01-43f6fab872ca/luxury_stylist_demo.mp4](https://storage.googleapis.com/luxury-fashion-media-qwiklabs-gcp-01-43f6fab872ca/luxury_stylist_demo.mp4)
+> 📁 **Demo Video Folder in Repository**: [`demo video/`](./demo%20video/)
+>   - MP4 Format: [`demo video/luxury_stylist_demo.mp4`](./demo%20video/luxury_stylist_demo.mp4)
+>   - WebM Format: [`demo video/luxury_stylist_demo.webm`](./demo%20video/luxury_stylist_demo.webm)
 
 ---
 
@@ -62,14 +62,15 @@ luxury-fashion-stylist/
 │   ├── main.py                # FastAPI proxy server for ADK Agent Engine
 │   └── static/
 │       └── index.html         # Regal metallic gold luxury concierge UI
+├── demo video/                 # Dedicated Demo Video Folder
+│   ├── luxury_stylist_demo.mp4 # Universal MP4 video (H.264 + AAC + Lyria AI Music)
+│   └── luxury_stylist_demo.webm# WebM VP9 demo recording
 ├── tests/                      # Pytest unit and integration test suite
 │   ├── unit/
 │   └── integration/
 ├── project_brief.md            # App concept, target audience, and specification
 ├── pyproject.toml              # Python dependencies (ADK, google-genai, google-cloud-storage, etc.)
-├── agents-cli-manifest.yaml    # ADK manifest configuration
-├── luxury_stylist_demo.mp4    # Demo video in universal MP4 format
-└── luxury_stylist_demo.webm    # Demo video in WebM format
+└── agents-cli-manifest.yaml    # ADK manifest configuration
 ```
 
 ---
