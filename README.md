@@ -6,6 +6,17 @@ It provides discerning clients with personalized luxury styling recommendations,
 
 ---
 
+## 📹 Demo Video
+
+Watch Haute Stylist in action (recorded with Playwright and scored with Google **Lyria (`lyria-002`)** AI upbeat lo-fi background music):
+
+https://github.com/user-attachments/assets/demo-placeholder
+
+> 🎬 **Direct Video Stream (MP4)**: [https://storage.googleapis.com/luxury-fashion-media-qwiklabs-gcp-01-43f6fab872ca/luxury_stylist_demo.mp4](https://storage.googleapis.com/luxury-fashion-media-qwiklabs-gcp-01-43f6fab872ca/luxury_stylist_demo.mp4)
+> 📁 **Local Repo Files**: [`luxury_stylist_demo.mp4`](./luxury_stylist_demo.mp4) | [`luxury_stylist_demo.webm`](./luxury_stylist_demo.webm)
+
+---
+
 ## 🌟 Key Features
 
 1. **🏛️ Exclusive Luxury Fashion Catalog (Firestore)**
@@ -38,14 +49,6 @@ It provides discerning clients with personalized luxury styling recommendations,
 
 ---
 
-## 📽️ Demo Video
-
-The project includes a full screen-capture demonstration recorded with Playwright and scored with Google **Lyria (`lyria-002`)** AI-generated upbeat lo-fi background music:
-
-- **Demo Video File**: `luxury_stylist_demo.webm`
-
----
-
 ## 📁 Project Structure
 
 ```
@@ -65,7 +68,8 @@ luxury-fashion-stylist/
 ├── project_brief.md            # App concept, target audience, and specification
 ├── pyproject.toml              # Python dependencies (ADK, google-genai, google-cloud-storage, etc.)
 ├── agents-cli-manifest.yaml    # ADK manifest configuration
-└── luxury_stylist_demo.webm    # Screen recording with Lyria AI background music
+├── luxury_stylist_demo.mp4    # Demo video in universal MP4 format
+└── luxury_stylist_demo.webm    # Demo video in WebM format
 ```
 
 ---
