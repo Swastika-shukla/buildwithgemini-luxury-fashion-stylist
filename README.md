@@ -8,11 +8,12 @@ It provides discerning clients with personalized luxury styling recommendations,
 
 ## 📹 Demo Video
 
-Watch Haute Stylist in action (recorded with Playwright and scored with Google **Lyria (`lyria-002`)** AI upbeat lo-fi background music):
+![Haute Stylist Demo Video](./demo_video.gif)
 
-> 🎬 **Direct Public Video Stream (MP4)**: [https://storage.googleapis.com/luxury-fashion-media-qwiklabs-gcp-01-43f6fab872ca/luxury_stylist_demo.mp4](https://storage.googleapis.com/luxury-fashion-media-qwiklabs-gcp-01-43f6fab872ca/luxury_stylist_demo.mp4)
-> 📁 **Demo Video Folder in Repository**: [`demo video/`](./demo%20video/)
->   - MP4 Format: [`demo video/luxury_stylist_demo.mp4`](./demo%20video/luxury_stylist_demo.mp4)
+> 🎬 **Direct Public Video Stream (MP4 with Lyria AI Music)**: [https://storage.googleapis.com/luxury-fashion-media-qwiklabs-gcp-01-43f6fab872ca/luxury_stylist_demo.mp4](https://storage.googleapis.com/luxury-fashion-media-qwiklabs-gcp-01-43f6fab872ca/luxury_stylist_demo.mp4)  
+> 📁 **Video Files in Repository**:
+>   - Animated GIF: [`demo_video.gif`](./demo_video.gif)
+>   - Universal MP4: [`demo video/luxury_stylist_demo.mp4`](./demo%20video/luxury_stylist_demo.mp4)
 >   - WebM Format: [`demo video/luxury_stylist_demo.webm`](./demo%20video/luxury_stylist_demo.webm)
 
 ---
@@ -62,6 +63,7 @@ luxury-fashion-stylist/
 │   ├── main.py                # FastAPI proxy server for ADK Agent Engine
 │   └── static/
 │       └── index.html         # Regal metallic gold luxury concierge UI
+├── demo_video.gif              # Auto-playing inline demo animation for GitHub README
 ├── demo video/                 # Dedicated Demo Video Folder
 │   ├── luxury_stylist_demo.mp4 # Universal MP4 video (H.264 + AAC + Lyria AI Music)
 │   └── luxury_stylist_demo.webm# WebM VP9 demo recording
